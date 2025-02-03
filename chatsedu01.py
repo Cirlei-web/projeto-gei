@@ -9,8 +9,8 @@ os.environ['HTTPS_PROXY'] = 'http://csgoes:1123%40baba@sedu2.proxy.dcpr.es.gov.b
 import tempfile
 
 import streamlit as st
-from langchain.memory import ConversationBufferMemory
-
+#from langchain.memory import ConversationBufferMemory
+from langchain.memory.buffer import ConversationBufferMemory
 from langchain_groq import ChatGroq
 from langchain_openai import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
